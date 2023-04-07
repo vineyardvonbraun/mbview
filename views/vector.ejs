@@ -158,7 +158,7 @@ var popup = new mapboxgl.Popup({
 
 var wantPopup = false;
 
-map.on('mousemove', function (e) {
+map.on('click', function (e) {
   // set a bbox around the pointer
   var selectThreshold = 3;
   var queryBox = [
